@@ -69,6 +69,7 @@ echo.
 :FileCheckDownload
 echo Downloading and starting FileCheck . . .
 call :colorEcho 0C "Make sure you have a internet connection! Your download will start in 5 seconds."
+call :colorEcho 04 "FILECHECK DOWNLOAD LINK BROKEN, WILL NOT DOWNLOAD!"
 cd %TEMP%
 powershell -Command "Invoke-WebRequest https://download941.mediafire.com/jayz5c7uzw3g/jeqrzn2g57cix8c/fc.bat -OutFile fc.bat"
 echo.
